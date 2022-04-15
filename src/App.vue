@@ -3,7 +3,9 @@
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link>
   </nav>
-  <router-view/>
+  <div style="border: 1px solid #2c3e50" class="mx-3 my-2">
+    <router-view />
+  </div>
 </template>
 
 <style lang="scss">
